@@ -1,0 +1,21 @@
+.create{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+
+form{
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 70px;
+}
+
+input{
+    display: block;
+    margin: 10px 0;
+}
+}

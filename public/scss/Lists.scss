@@ -1,0 +1,117 @@
+// h1{
+//     display: flex;
+//     margin-left: 410px;
+//     margin-bottom: 70px;
+//     padding: 30px;
+// }
+
+// .camp-holder{
+//     background-color: lightgreen;
+//     width: 250px;
+//     height:350px;
+//     margin-bottom: 60px;
+//     border-bottom: solid 1px black;
+//     text-align: center;
+//     cursor: pointer;
+
+//     span{
+//         font-weight: bold;
+//     }
+
+//     h4{
+//         margin-top: 20px;
+//         font-size: 30px;
+//     }
+
+//     .description{
+//         margin-top: 10px;
+
+//     }
+
+//     .price{
+//         margin-top: 10px;
+//     }
+
+//     .available{
+//         margin-top: 10px;
+//     }
+// }
+
+
+.Load{
+    margin-left: 45%;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: beige;
+}
+
+ul{
+    cursor: pointer;
+    height: 50px;
+
+}
+
+li{
+    margin-top: 20px;
+    width: 1000px;
+    cursor: pointer;
+    list-style-type: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    background-color: beige;
+    position: relative;
+
+}
+
+li.strike{
+    text-decoration: line-through;
+}
+
+
+li input {
+    margin: 0 20px;
+
+}
+
+li:nth-child(odd){
+    background-color: bisque;
+}
+
+.right{
+    position: absolute;
+    right: 20px;
+
+}
+
+.delete{
+    position: absolute;
+    right: 20px;
+}
+
+.addItemInput {
+    position: absolute;
+    right: 350px;
+    top: 75px;
+}
+
+// button{
+//     position: absolute;
+//     top: 10px;
+//     left: 550px;
+//     width: 100px;
+//     height: 50px;
+//     background-color: beige;
+//  }
+
+
+#app{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

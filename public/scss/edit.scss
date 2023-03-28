@@ -1,0 +1,26 @@
+.edit{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+
+form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 70px;
+}
+
+input{
+    display: block;
+    margin: 10px 0;
+}
+
+#edit{
+    width: 100px;
+    margin-bottom: 300px;
+}
+}

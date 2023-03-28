@@ -1,0 +1,24 @@
+@media screen and (max-width: 960px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+
+        line{
+        }
+    }
+    
+}
+
+.container{
+    display: flex;
+
+    form{
+        margin-bottom: 350px;
+    }
+
+    #submit{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border: 2px black solid;
+    }
+}
+
