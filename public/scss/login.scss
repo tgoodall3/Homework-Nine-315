@@ -14,11 +14,14 @@
 
     form{
         margin-bottom: 350px;
-    }
 
-    #submit{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        border: 2px black solid;
+        #submit{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border: 2px black solid;
+        }
     }
 }
 

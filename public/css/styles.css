@@ -236,7 +236,10 @@ h1, h2, h3, h4, h5, h6, p {
 .container form {
   margin-bottom: 350px;
 }
-.container #submit {
+.container form #submit {
+  width: 100px;
+  height: 100px;
+  background-color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   border: 2px black solid;
 }
